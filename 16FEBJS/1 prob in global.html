@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <i oneclick="LikesIncrement()" class="fafa-thumbs-up" style="font-size:48px;color:grey"></i><span style="font-size:40">0</span>
+    <script>//Create a like icon and when user clicks on the link icon,increment the count and display the updated count on the UI.
+        var Likescount =0;//global var
+        function LikesIncrement (){
+            Likescount=Likescount+1;
+            document.getelementByid("counter").innerHTML=Likescount;
+        }
+    </script>
+    
+</body>
+</html>

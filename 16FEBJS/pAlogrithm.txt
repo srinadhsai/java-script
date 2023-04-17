@@ -1,0 +1,11 @@
+ALGORITHM :
+
+1. Get the icon clickable.
+ref :- front awesome thumps up icon/thumps up icon html-->fafa thumsupw3school(site)
+2. Make the icon clickable.
+note :- use onclick event attribute.
+3. add an event handler (function) for onclick event.
+onclick = "like increment()"
+4. declare a variable (local-->only 1 like/global--->it will increment likes)
+5. on every click of the icon,increment the variable by 1.
+display the variables value on the UI.
