@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    username:<input type="text" id="username"><br><br>
+    password:<input type="password" id="password"><br><br>
+    <button onclick="login()"></button>
+    <script>////Create a loging page using username and password.
+        function login(){
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            var username_x="sai";
+            var password_y="sai";
+            console.log(username);
+            console.log(password);
+            if(username==username_x && password==password_y){
+                alert("login success");
+            }
+            else{
+                alert("login failed");
+                }
+            }
+    </script>
+</body>
+</html>

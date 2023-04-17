@@ -1,0 +1,4 @@
+Variable Hoisting:(it will happens for both global and local variables)
+
+It is a default process where all the variable declarations are taken 
+to the top of the file before execution of the code. 

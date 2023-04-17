@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <input type="text" id="password" placeholder="password">
+        <button on click="login()">login</button on click>
+        <script>
+            function login() {
+                //alert("hello");
+                console.log(document.getelementbyId ("password")).value;
+                console.log(password);
+                var length=password.length;
+                if(length>=8){
+                alert("password should be atlest 8 char");
+                }
+                else{
+                    alert("password accepted");
+                }
+                }
+        </script>
+    </body>
+</html>

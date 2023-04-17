@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <script>
+        console.log(a);///,undefined
+        console.log(b);///,undefined
+        var a=10,b=20;
+        console.log(a);///,10
+        console.log(b);///,20
+        function f1(){
+            console.log(a);//undefined
+            console.log(b);//undefined
+            var a =30;b=40;
+            console.log(a);//30
+            console.log(b);//40
+        }
+        f1()
+        console.log(a);//10
+        console.log(b);//40
+    </script>
+</body>
+</html>

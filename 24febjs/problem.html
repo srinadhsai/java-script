@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    username:<input type="text" id="username">
+    password:<input type="text" id="password">
+    email :<input type="text" id="email">
+    <button onclick="login()">login</button>
+    <script>// implement loginsystem using ternary operator.
+        function login(){
+            //var username = document.getElementById("username").value;
+            //var password = document.getElementById("password").value;
+            //var email = document.getElementById("email").value;
+           // var usernameresult=username=="digital";
+           // var passwordresult=password=="lync";
+           //var emailresult=email=="digitallync@.com";
+           //usernameresult&&passwordresult&&emailresult?alert("loginsuccess"):alert("logingfailure");
+            document.getElementById("username").value == "digital" && document.getElementById("password").value == "lync" && document.getElementById("email").value == "digitallync@.com"? alert("login success") : alert("login failure");
+           
+        }
+
+    </script>
+</body>
+</html>

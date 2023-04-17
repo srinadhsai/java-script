@@ -1,0 +1,79 @@
+Data Types:
+
+
+Memory manager uses data types to allocate the memory to the variable's data. 
+
+As part of JS, we have 2 types of datatypes.
+
+1. primitive types :
+
+number, boolean, string
+
+2. non primitive types:
+
+arrays, objects 
+
+1)i.Number:
+
+any number that we store in js will be considered to be number datatype. 
+
+  ii.boolean: (true / false)
+
+
+iii.Strings:
+
+  A string is a collection of characters. 
+   we can create a string by single and double qoute.
+  var str= ''; or var str= ""; 
+Strings in JS are immutable (cannot be modified).
+
+Problem Statement:
+
+Validate the length of the password.
+
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+
+
+    <input type="text" id="password" placeholder="password here">
+
+    <button onclick="login()">Login</button>
+
+
+    <script>
+
+
+        function login() {
+
+            var password = document.getElementById("password").value;
+            console.log(password);
+
+            var length = password.length;
+
+            if (length < 8) {
+                alert("password should be atlest 8 chars");
+            }
+            else {
+                alert("password accepted");
+            }
+        }
+
+
+    </script>
+
+</body>
+
+</html>
+
+2. non primitive types:
+
+arrays, objects 
+
+
+

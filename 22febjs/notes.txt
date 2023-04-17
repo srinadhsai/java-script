@@ -1,0 +1,59 @@
+Non-Primitive Data Types:
+
+Arrays :
+
+An array is a linear data structure which stores the data in the
+sequential order. 
+
+in JS, Array can store any type of data.
+
+syntax:
+
+ var array_name = [];
+
+  array_name should be a noun. 
+
+Array index always starts with 0 and using index values we can access the 
+actual data. 
+
+methods/ functions:
+ var array = [10, 20, true, false, "hello"];
+        array.push(100);
+        array.unshift(0);
+        console.log(array);
+        array.pop();
+        array.shift();
+        console.log(array);
+        var index = array.indexOf(false);
+        console.log(index);
+        array.splice(index, 1);
+        console.log(array);
+        var index2 = array.indexOf(20);
+        console.log(index2);
+        array.splice(index2, 0, 5);
+        console.log(array);
+
+Javascript Objects:
+
+An Object is a realtime entity that contains properties and action. 
+
+In JS, Any realtime object is represented using javascript objects. 
+
+
+syntax:
+
+  var object = {
+      key : value
+  }
+
+  key must be a string and unique 
+  value can be of any datatype and need not to be unique. 
+
+
+Tasks:
+
+1. Create a list of 10 products using arrays and objects. 
+
+2. Create a list of comments of a post using arrays and objects. 
+
+3. Create a list of 3 courses and display each course individually on the UI. 
